@@ -3,14 +3,134 @@
     src: url(FONTS/AcuminVariableConcept.otf);
 }
 
-h1 {
-    font-size: 450px;
-    font-family: Acumin;
-    font-variation-settings: 'wght' 900, 'wdth' 115, 'slnt' 0;
-    text-align: center;
+@font-face {
+    font-family: Helvetica2;
+    src: url(FONTS/helvetica-255/Helvetica.ttf);
 }
 
+@font-face {
+    font-family: Helvetica3;
+    src: url(FONTS/helvetica-255/helvetica-light-587ebe5a59211.ttf);
+}
+
+
+
+
+body:hover{
+    cursor: default;
+}
+
+h1 {
+   font-family: Acumin; 
+}
 .homepagetitle {
     line-height: 350px;
     padding-top: 80px;
+    font-size: 450px;
+    font-variation-settings: 'wght' 900, 'wdth' 115, 'slnt' 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: -50px;
+}
+.cword:hover{
+    color: #A8E6CF;
+}
+.iword:hover{
+    color: #DCEDC1;
+}
+.tword:hover{
+    color: #FFD3B6;
+}
+.yword:hover{
+    color: #FFAAA5;
+}
+
+.artword2{
+    letter-spacing: 90px;
+}
+.aword:hover{
+    color: #A8E6CF;
+}
+.rword:hover{
+    color: #DCEDC1;
+}
+.tword2:hover{
+    color: #FFD3B6;
+}
+
+
+
+
+h2 {
+    font-family: Helvetica2;
+}
+.homepagelinks {
+    font-size: 60px;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 190px;
+}
+.muralslink{
+    text-decoration-line: none;
+}
+.muralslink:hover{
+    color: #A8E6CF;
+}
+.graffitilink{
+    text-decoration-line: none;
+}
+.graffitilink:hover{
+    color: #FF8B94;
+}
+
+
+
+p {
+    font-family: Helvetica2;
+}
+.artword:hover{
+    color: #FFD3B6;
+    font-weight: bold;
+}
+.artword{
+    color: #DCEDC1;
+}
+.collectionword:hover{
+    color: #DCEDC1;
+    font-weight: bold;
+}
+.collectionword{
+    color: #A8E6CF;
+}
+.aroundword:hover{
+    color: #FFAAA5;
+    font-weight: bold;
+}
+.aroundword{
+    color: #FFD3B6;
+}
+.streetsword:hover{
+    color: #FF8B94;
+    font-weight: bold;
+}
+.streetsword{
+    color: #FFAAA5;
+}
+.twincitiesword:hover{
+    color: #A8E6CF;
+    font-weight: bold;
+}
+.twincitiesword{
+    color: #FF8B94;
+}
+.homepagetype {
+    text-align: center;
+    font-size: 80px;
+    max-width: 1000px;
+    letter-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
 }
