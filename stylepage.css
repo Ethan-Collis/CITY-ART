@@ -19,6 +19,21 @@
 body:hover{
     cursor: default;
 }
+.bodyimage{
+    background-image: url(OTHER\ ASSESTS/skyline.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    opacity: 90%;
+}
+
+.muralssection{
+    padding-top: 0px;
+}
+
+
+
 
 h1 {
    font-family: Acumin; 
@@ -59,6 +74,17 @@ h1 {
 }
 
 
+.muralstitle{
+    font-size: 400px;
+    font-variation-settings: 'wght'500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -15px;
+}
+
+
+
+
 
 
 h2 {
@@ -74,12 +100,14 @@ h2 {
 }
 .muralslink{
     text-decoration-line: none;
+    color: black;
 }
 .muralslink:hover{
     color: #A8E6CF;
 }
 .graffitilink{
     text-decoration-line: none;
+    color: black;
 }
 .graffitilink:hover{
     color: #FF8B94;
@@ -133,4 +161,104 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-top: 200px;
+}
+
+
+.muralstext{
+    text-align: center;
+    font-size: 80px;
+    max-width: 1000px;
+    letter-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+
+
+
+footer{
+    font-family: Helvetic2;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 400px;
+    padding-bottom: -10px;
+    align-items: baseline;
+}
+
+a{
+    font-family: Helvetica2;
+}
+
+
+.footerlink{
+    text-decoration: none;
+    color: black;
+}
+.footerlink:hover{
+    color: #FF8B94;
+    font-weight: bolder;
+}
+
+.home{
+    text-decoration: none;
+    color: #FFAAA5;
+    margin-left: 70px;
+    padding-top: 50px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+.home:hover{
+    color: #A8E6CF;
+    font-weight: bold;
+}
+
+.arrow {
+    border: solid #FFAAA5;
+    border-width: 0 3px 3px 0;
+    display:inline-block;
+    padding: 8px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .arrow:hover{
+    color: #A8E6CF;
+  }
+
+
+
+
+.muralimage1{
+    width: 787.5px;
+    height: 787.5px;
+    margin-left: 70px;
+  }
+.muralslayout{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+.muraltext1{
+    font-size: 40px;
+}
+.muraltext2{
+    font-size: 40px;
+    margin-left: 300px;
+}
+.muralimage2{
+    width: 787.5px;
+    height: 787.5px;
+  }
+  .muralslayout2{
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
