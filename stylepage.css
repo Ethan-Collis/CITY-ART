@@ -4,6 +4,13 @@
 }
 
 h1 {
+    font-size: 450px;
     font-family: Acumin;
-    font-size: 92px;
+    font-variation-settings: 'wght' 900, 'wdth' 115, 'slnt' 0;
+    text-align: center;
+}
+
+.homepagetitle {
+    line-height: 350px;
+    padding-top: 80px;
 }
