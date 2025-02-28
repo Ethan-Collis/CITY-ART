@@ -82,6 +82,14 @@ h1 {
     margin-bottom: -15px;
 }
 
+.graffitititle{
+    font-size: 380px;
+    font-variation-settings: 'wght'500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -15px;
+}
+
 
 
 
@@ -174,6 +182,16 @@ p {
     padding-bottom: 100px;
 }
 
+.graffititext{
+    text-align: center;
+    font-size: 80px;
+    max-width: 1000px;
+    letter-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
 
 
 
@@ -237,6 +255,18 @@ a{
     height: 787.5px;
     margin-left: 70px;
   }
+
+.graffitiimage{
+    width: 1300px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 80px;
+}
+
+
+
 .muralslayout{
     display: flex;
     gap: 200px;
