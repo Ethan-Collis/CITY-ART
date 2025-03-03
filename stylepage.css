@@ -27,6 +27,14 @@ body:hover{
     background-size:cover;
     opacity: 90%;
 }
+.muralbackground{
+    background-image: url(MURAL\ ASSESTS/muralbackground3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    opacity: 100%;
+}
+
 
 .muralssection{
     padding-top: 0px;
@@ -80,6 +88,7 @@ h1 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: -15px;
+    opacity: 90%;
 }
 .Mletter:hover{
     color: #A8E6CF;
@@ -222,6 +231,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 100px;
+    opacity: 90%;
 }
 .tiwncitiesword2{
     color: #A8E6CF;
