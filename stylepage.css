@@ -34,7 +34,12 @@ body:hover{
     background-size:cover;
     opacity: 100%;
 }
-
+.graffitiguy{
+    position: absolute;
+}
+.graffititext2{
+    position: relative;
+}
 
 .muralssection{
     padding-top: 0px;
@@ -272,7 +277,7 @@ p {
 
 .graffititext{
     text-align: center;
-    font-size: 80px;
+    font-size: 65px;
     max-width: 1000px;
     letter-spacing: 5px;
     margin-left: auto;
@@ -373,6 +378,7 @@ footer{
     padding-top: 400px;
     padding-bottom: -10px;
     align-items: baseline;
+    font-weight: bold;
 }
 
 a{
@@ -425,12 +431,20 @@ a{
   }
 
 .graffitiimage{
-    width: 1300px;
-    height: 800px;
+    size: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
+    border: solid;
+    border-width: 5px;
+}
+.imagelink{
+    color: black;
+}
+.imagelink:hover{
+    color: #A8E6CF;
 }
 
 
