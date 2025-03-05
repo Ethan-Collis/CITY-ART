@@ -146,6 +146,14 @@ h1 {
     color: #FFD3B6;
 }
 
+.bosquetitle{
+    font-size: 200px;
+    font-variation-settings: 'wght'500;
+    margin-top: 50px;
+    margin-bottom: -35px;
+    margin-left: 70px;
+}
+
 
 
 
@@ -365,6 +373,15 @@ p {
     font-weight: bold;
 }
 
+.bosquetext {
+    text-align: justify left;
+    font-size: 50px;
+    max-width: 900px;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+}
+
 
 
 
@@ -424,6 +441,7 @@ a{
 
 
 
+
 .muralimage1{
     width: 787.5px;
     height: 787.5px;
@@ -451,7 +469,7 @@ a{
 
 .muralslayout{
     display: flex;
-    gap: 200px;
+    gap: 100px;
     align-items: center;
     margin-bottom: 0px;
     padding-top: 0px;
@@ -461,16 +479,30 @@ a{
 }
 .muraltext2{
     font-size: 40px;
-    margin-left: 300px;
+    margin-left: 100px;
 }
-.muralimage2{
-    width: 787.5px;
-    height: 787.5px;
-  }
+
   .muralslayout2{
     display: flex;
-    gap: 400px;
+    gap: 300px;
     align-items: center;
     margin-bottom: 50px;
     padding-top: 50px;
 }
+.muralimage2{
+    margin-right: 60px;
+}
+
+
+.bosqueimage1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .bosqueimages {
+    display: flex;
+  }
+  .bosqueimages2 {
+    display: flex;
+  }
+
